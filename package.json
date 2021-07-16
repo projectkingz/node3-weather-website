@@ -1,10 +1,9 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +11,15 @@
   "dependencies": {
     "postman-request": "^2.88.1-postman.30",
     "request": "^2.88.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/projectkingz/node3-weather-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/projectkingz/node3-weather-website/issues"
+  },
+  "homepage": "https://github.com/projectkingz/node3-weather-website#readme",
+  "description": ""
 }
